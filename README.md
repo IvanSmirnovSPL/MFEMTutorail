@@ -4,4 +4,7 @@ meson build
 
 meson compile -C build
 
-// исполняемый файл в build/src
+cp ./build/src/tutorialRun ./runDirectory/tutorialRun
+
+python3 ./runDirectory/run.py
+
